@@ -1,7 +1,7 @@
 name: Jira Sync
 on:
   issues:
-    types: [opened, labeled, unlabeled, closed]
+    types: [opened, labeled, unlabeled]
   issue_comment:
     types: [created]
 jobs:
