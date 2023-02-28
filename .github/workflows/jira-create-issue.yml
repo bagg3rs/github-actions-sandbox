@@ -14,7 +14,7 @@ jobs:
       uses: atlassian/gajira-login@master
       env:
         JIRA_BASE_URL: https://dsdmoj.atlassian.net/
-        JIRA_USER_EMAIL: aaron.robinson1@justice.gov.uk
+        JIRA_USER_EMAIL: EMAIL@EMAIL.COM
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN_AR }}
 
     - name: Create
