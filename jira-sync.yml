@@ -15,7 +15,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           jiraHost: ${{ secrets.JIRA_HOST }}
-          jiraUsername: aaron.robinson1@justice.gov.uk
+          jiraUsername: SOME-EMAIL-ADDRESS
           jiraPassword: ${{ secrets.JIRA_API_TOKEN_AR }}
           project: TC
           assignee: default_assignee
